@@ -1,10 +1,12 @@
-#ifndef _BINARY_TREES_H_
-#define _BINARY_TREES_H_
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+/* Data structures */
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -13,7 +15,7 @@
  * @left: Pointer to the left child node
  * @right: Pointer to the right child node
  */
-typedef struct binary_tree_s
+struct binary_tree_s
 {
 	int n;
 	struct binary_tree_s *parent;
